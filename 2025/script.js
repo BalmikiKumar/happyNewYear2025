@@ -40,7 +40,7 @@ document.getElementById("okClickMe").addEventListener("click", function() {
       greet = "Good Night ";
      }
      const greetMsg = document.querySelector("#nameGreet");
-     greetMsg.innerText = `Happy new year and ${greet} ${nam} Ji, 🤗 ❤ \n We wish you and your family a very Happy New Year! 👩‍👩‍👦‍👦`;
+     greetMsg.innerText = `सबसे पहले बाल्मीकि की तरफ से\nHappy new year and ${greet} ${nam} Ji, 🤗 ❤ \n We wish you and your family a very Happy New Year! 👩‍👩‍👦‍👦`;
 
     
     const reader = new FileReader();
@@ -53,4 +53,5 @@ document.getElementById("okClickMe").addEventListener("click", function() {
     // Show Result
     document.getElementById("result").style.display = "block";
   });
+
   
